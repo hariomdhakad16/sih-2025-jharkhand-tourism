@@ -1,1 +1,2 @@
-export { default as Price } from './Price';
+export { Price } from './Price';
+export type { PriceProps, PriceSize } from './PriceProps';

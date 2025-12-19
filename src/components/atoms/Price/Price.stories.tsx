@@ -8,6 +8,9 @@ const meta = {
 		layout: 'centered',
 	},
 	tags: ['autodocs'],
+	args: {
+		amount: 5000,
+	},
 	argTypes: {
 		amount: {
 			control: 'number',
@@ -37,11 +40,7 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 
 // Basic Price
-export const Default: Story = {
-	args: {
-		amount: 5000,
-	},
-};
+export const Default: Story = {};
 
 // Price with Period
 export const WithPeriod: Story = {
@@ -70,7 +69,6 @@ export const WithDiscountAndPeriod: Story = {
 
 // Price Sizes
 export const Sizes: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-4 items-start">
 			<Price amount={5000} size="sm" period="per night" />
@@ -83,7 +81,6 @@ export const Sizes: Story = {
 
 // Price Sizes with Discount
 export const SizesWithDiscount: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-4 items-start">
 			<Price amount={5000} originalAmount={7000} size="sm" period="per night" />
@@ -96,7 +93,6 @@ export const SizesWithDiscount: Story = {
 
 // Different Price Ranges
 export const PriceRanges: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-3 items-start">
 			<Price amount={999} period="per person" />
@@ -110,7 +106,6 @@ export const PriceRanges: Story = {
 
 // Tourism Package Examples
 export const TourismPackages: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-4 items-start">
 			<div>
@@ -138,7 +133,6 @@ export const TourismPackages: Story = {
 
 // High Discount Examples
 export const HighDiscounts: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-3 items-start">
 			<Price amount={3000} originalAmount={6000} period="per night" size="lg" />
@@ -150,7 +144,6 @@ export const HighDiscounts: Story = {
 
 // Different Periods
 export const DifferentPeriods: Story = {
-	args: {},
 	render: () => (
 		<div className="flex flex-col gap-3 items-start">
 			<Price amount={1500} period="per night" />
@@ -165,7 +158,6 @@ export const DifferentPeriods: Story = {
 
 // Card Integration Example
 export const InCard: Story = {
-	args: {},
 	render: () => (
 		<div className="card bg-base-100 w-80 shadow-xl">
 			<figure className="h-48 bg-base-300"></figure>
