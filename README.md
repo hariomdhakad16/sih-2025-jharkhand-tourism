@@ -3,11 +3,15 @@
 **SIH 2025 Problem Statement #25032**
 
 [![Live Demo](https://img.shields.io/badge/demo-GitHub_Pages-green)](https://dbc2201.github.io/sih-2025-jharkhand-tourism/)
-[![Storybook](https://img.shields.io/badge/storybook-docs-ff4785)](https://dbc2201.github.io/sih-2025-jharkhand-tourism/storybook)
+[![MongoDB](https://img.shields.io/badge/MongoDB-8.0-47A248?logo=mongodb)](https://www.mongodb.com/)
+[![Express](https://img.shields.io/badge/Express-5.2.1-000000?logo=express&logoColor=fff)](https://expressjs.com/)
+[![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-24_LTS-339933?logo=node.js)](https://nodejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-8.0-646cff?logo=vite)](https://vitejs.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Storybook](https://img.shields.io/badge/Storybook-10.1-FF4785?logo=storybook)](https://storybook.js.org/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)](https://react.dev)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?logo=typescript)](https://www.typescriptlang.org)
-[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)](https://tailwindcss.com)
 
 ---
 
